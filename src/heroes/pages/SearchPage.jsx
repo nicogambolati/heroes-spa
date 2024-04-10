@@ -30,7 +30,7 @@ export const SearchPage = () => {
 
   return (
     <>
-      <h1>SearchPage</h1>
+      <h1 className="mt-2">SearchPage</h1>
       <hr />
       <div className="row">
         <div className="col-5">
