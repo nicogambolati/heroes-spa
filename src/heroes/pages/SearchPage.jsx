@@ -56,7 +56,7 @@ export const SearchPage = () => {
 
           <div
             className={`alert alert-primary animate__animated animate__fadeIn 
-            ${ showSearch ? "" : "d-none" }`}
+            ${showSearch ? "" : "d-none"}`}
           >
             Search a Hero
           </div>
@@ -67,9 +67,11 @@ export const SearchPage = () => {
             No hero with <b>{q}</b>
           </div>
 
-          {heroes.map((hero) => {
-            return <HeroCard key={hero.id} {...hero} />;
-          })}
+          <div className="row">
+            {heroes.map((hero) => {
+              return <HeroCard key={hero.id} {...hero} />;
+            })}
+          </div>
         </div>
       </div>
     </>
