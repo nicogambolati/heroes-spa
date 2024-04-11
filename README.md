@@ -22,7 +22,7 @@ Install heroes-spa with npm
 
 ## Demo
 
-Insert gif or link to demo
+The project is deployed and accessible [here](heroes-app-ng.netlify.app)
 
 
 ## Screenshots
