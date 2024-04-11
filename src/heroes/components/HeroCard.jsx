@@ -18,7 +18,7 @@ export const HeroCard = ({
     <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-3 animate__animated animate__fadeIn">
       <div className="card h-100 d-flex flex-column">
         <img
-          src={`./assets/heroes/${id}.jpg`}
+          src={`/heroes/${id}.jpg`}
           className="card-img-top"
           alt={superhero}
         />
